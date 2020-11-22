@@ -1,0 +1,19 @@
+.reload__button {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    border: none;
+    padding: 10px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background-color: cadetblue;
+    cursor: pointer;
+    outline: none;
+    &--hidden {
+        display: none;
+    }
+    &:hover {
+        background-color: darkslategray;
+    }
+}
